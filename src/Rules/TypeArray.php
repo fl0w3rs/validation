@@ -8,7 +8,7 @@ class TypeArray extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be array";
+    protected $message = "Поле :attribute должно быть массивом";
 
     /**
      * Check the $value is valid

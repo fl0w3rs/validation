@@ -9,7 +9,7 @@ class Before extends Rule
     use Traits\DateUtilsTrait;
 
     /** @var string */
-    protected $message = "The :attribute must be a date before :time.";
+    protected $message = "В поле :attribute должна быть дата раньше :time";
 
     /** @var array */
     protected $fillableParams = ['time'];

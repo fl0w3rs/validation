@@ -9,7 +9,7 @@ class Between extends Rule
     use Traits\SizeTrait;
 
     /** @var string */
-    protected $message = "The :attribute must be between :min and :max";
+    protected $message = "Поле :attribute должно быть между :min и :max";
 
     /** @var array */
     protected $fillableParams = ['min', 'max'];

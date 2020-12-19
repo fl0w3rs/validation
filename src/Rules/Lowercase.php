@@ -8,7 +8,7 @@ class Lowercase extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be lowercase";
+    protected $message = "Поле :attribute может содержать буквы только нижнего регистра";
 
     /**
      * Check the $value is valid

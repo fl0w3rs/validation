@@ -10,7 +10,7 @@ class Accepted extends Rule
     protected $implicit = true;
 
     /** @var string */
-    protected $message = "Вы должны принять :attribute.";
+    protected $message = "Вы должны принять :attribute";
 
     /**
      * Check the $value is accepted

@@ -28,7 +28,7 @@ abstract class Rule
     protected $fillableParams = [];
 
     /** @var string */
-    protected $message = "The :attribute is invalid";
+    protected $message = "Поле :attribute некорректно";
 
     abstract public function check($value): bool;
 

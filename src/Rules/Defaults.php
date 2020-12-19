@@ -9,7 +9,7 @@ class Defaults extends Rule implements ModifyValue
 {
 
     /** @var string */
-    protected $message = "The :attribute default is :default";
+    protected $message = "Стандартное значение поля :attribute - :default";
 
     /** @var array */
     protected $fillableParams = ['default'];

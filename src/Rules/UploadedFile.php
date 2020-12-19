@@ -12,7 +12,7 @@ class UploadedFile extends Rule implements BeforeValidate
     use Traits\FileTrait, Traits\SizeTrait;
 
     /** @var string */
-    protected $message = "The :attribute is not valid uploaded file";
+    protected $message = "Поле :attribute должно быть файлом";
 
     /** @var string|int */
     protected $maxSize = null;

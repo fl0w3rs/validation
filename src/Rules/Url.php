@@ -8,7 +8,7 @@ class Url extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid url";
+    protected $message = "Поле :attribute содержит недействительный URL";
 
     /**
      * Given $params and assign $this->params

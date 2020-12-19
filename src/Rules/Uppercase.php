@@ -8,7 +8,7 @@ class Uppercase extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute must be uppercase";
+    protected $message = "Поле :attribute может содержать буквы только верхнего регистра";
 
     /**
      * Check the $value is valid

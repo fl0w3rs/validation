@@ -8,7 +8,7 @@ class Date extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid date format";
+    protected $message = "Поле :attribute не является датой";
 
     /** @var array */
     protected $fillableParams = ['format'];

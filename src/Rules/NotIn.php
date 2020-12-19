@@ -9,7 +9,7 @@ class NotIn extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not allowing :disallowed_values";
+    protected $message = "Поле :attribute не должно содержать :disallowed_values";
 
     /** @var bool */
     protected $strict = false;

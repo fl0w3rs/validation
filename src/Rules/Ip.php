@@ -8,7 +8,7 @@ class Ip extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid IP Address";
+    protected $message = "Поле :attribute должно быть действительным IP-адресом";
 
     /**
      * Check the $value is valid

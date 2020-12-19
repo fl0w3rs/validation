@@ -8,7 +8,7 @@ class Regex extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute is not valid format";
+    protected $message = "Поле :attribute имеет ошибочный формат";
 
     /** @var array */
     protected $fillableParams = ['regex'];

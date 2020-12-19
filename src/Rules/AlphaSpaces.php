@@ -8,7 +8,7 @@ class AlphaSpaces extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute may only allows alphabet and spaces";
+    protected $message = "Поле :attribute может содержать только буквы и пробелы";
 
     /**
      * Check the $value is valid

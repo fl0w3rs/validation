@@ -8,7 +8,7 @@ class Alpha extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute only allows alphabet characters";
+    protected $message = "Поле :attribute может содержать только буквы";
 
     /**
      * Check the $value is valid

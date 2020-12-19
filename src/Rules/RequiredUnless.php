@@ -10,7 +10,7 @@ class RequiredUnless extends Required
     protected $implicit = true;
 
     /** @var string */
-    protected $message = "The :attribute is required";
+    protected $message = "Поле :attribute обязательно для заполнения";
 
     /**
      * Given $params and assign the $this->params

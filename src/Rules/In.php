@@ -9,7 +9,7 @@ class In extends Rule
 {
 
     /** @var string */
-    protected $message = "The :attribute only allows :allowed_values";
+    protected $message = "Поле :attribute может быть только одним из значений: :disallowed_values";
 
     /** @var bool */
     protected $strict = false;
